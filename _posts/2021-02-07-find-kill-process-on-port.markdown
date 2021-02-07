@@ -8,7 +8,7 @@ To find a process on a macOS El Capitan (10.15) and newer run the below command 
 ```shell
 lsof -i tcp:<port_number>
 ```
-eg: `lsof -i tcp:80`
+eg: `lsof -i tcp:5253`
 
 The `lsof` command will list all the process running on that port and the output will list the PIDs of the process with other infos.
 ```
