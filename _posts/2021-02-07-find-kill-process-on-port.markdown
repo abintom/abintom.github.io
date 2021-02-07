@@ -10,7 +10,7 @@ lsof -i tcp:<port_number>
 ```
 eg: `lsof -i tcp:5253`
 
-The `lsof` command will list all the process running on that port and the output will list the PIDs of the process with other infos.
+The `lsof` command will list all the process running on that port with their PIDs.
 ```
 COMMAND   PID    USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 node    59925 abintom   23u  IPv6 0xe1a616838e9ee039      0t0  TCP *:5253 (LISTEN)
