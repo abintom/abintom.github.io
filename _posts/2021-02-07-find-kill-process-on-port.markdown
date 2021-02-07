@@ -2,7 +2,6 @@
 title: How to find and kill a process running on a port in macOS
 categories: [Technology, Shell]
 tags: [terminal, bash]
-mermaid: true
 ---
 
 To find a process on a macOS El Capitan (10.15) and newer run the below command on Terminal
